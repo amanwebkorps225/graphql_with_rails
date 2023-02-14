@@ -5,5 +5,6 @@ module Types
     field :id, Integer, null: false
     field :title, String, null: false
     field :body, String, null: false
+    field :user_id, Integer, null: true 
   end
 end
