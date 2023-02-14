@@ -12,7 +12,7 @@ module Mutations
       user = User.find(id)
       if user.update(name: name, email: email)
         { user: user,
-          users: User.all,    #showw all data
+          users: User.all,    #show all data
           errors: []
         }
       else  
